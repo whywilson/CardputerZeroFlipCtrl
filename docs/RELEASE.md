@@ -2,7 +2,7 @@
 
 ## Scope
 
-Project code and original pixel artwork use GPL-3.0-only. Reviewed public screenshots are in `docs/screenshots/`. This document covers reproducible source releases. App-store packages, maintainer identity, and external submissions are tracked separately in `PUBLISH.md`; no external submission has been made.
+Project code and original pixel artwork use GPL-3.0-only. Reviewed public screenshots are in `docs/screenshots/`. This document covers reproducible source releases. App-store packages, maintainer identity, and external submissions are tracked separately in `PUBLISH.md`. Version 0.1.0 is available on GitHub; its store submission has passed automated validation and awaits first-release maintainer review.
 
 ## Build inputs
 
@@ -53,4 +53,10 @@ Installing a copy of LICENSE does not replace the GPL's source-availability requ
 - Device checks covered the H key guide, dismissal controls, and connection-page input. The four public screenshots used a temporary configuration and FIFO keyboard without accessing a real target.
 - Public source candidates were checked for credentials, local absolute paths, and actual private device addresses. The documented product Ethernet default, `192.168.50.2`, is intentionally retained.
 
-Local verification does not create a remote repository, push commits, or submit a store release. Generate release archives from the final commit and record the source revision and executable checksums.
+Local verification does not itself publish a release. The current publication record is:
+
+- [Source repository](https://github.com/whywilson/CardputerZeroFlipCtrl).
+- [GitHub release v0.1.0](https://github.com/whywilson/CardputerZeroFlipCtrl/releases/tag/v0.1.0), from source revision `92ad31d`, with the Debian package, complete corresponding source, checksums, and a real-device framebuffer demo.
+- [CardputerZero store submission PR #267](https://github.com/CardputerZero/packages/pull/267): automated validation passed; first-release maintainer review is pending.
+
+The release archive corresponds to the tagged implementation; later publication-record documentation changes do not replace the released implementation or its immutable assets.

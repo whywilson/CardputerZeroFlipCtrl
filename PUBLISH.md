@@ -58,9 +58,20 @@ Portal: <https://dev.cardputer.cc/#/upload>
 
 ## Submission Result
 
-- Status: `prepared; not submitted`
-- Submission route: official `czdev publish` CLI for the CardputerZero package repository.
-- Submitted at: not submitted yet.
-- Actions URL: not assigned yet.
-- Tracking pull request: not created yet.
+- Status: `submitted; all automated checks passed; awaiting first-release maintainer review`
+- Submission route: official `czdev` preflight and buffer-release flow; recovered its local Git fetch failure with GitHub's Git Data API.
+- Submitted at: `2026-11-11T19:56:34Z` (`2026-11-12 03:56:34 Asia/Shanghai`).
+- GitHub source release: <https://github.com/whywilson/CardputerZeroFlipCtrl/releases/tag/v0.1.0>
+- Source revision: `92ad31d` (release `v0.1.0`).
+- Complete source archive SHA-256: `8cb9345c3fe09992438ec61ad9d781b81813b991a4c00905fde7d3f07a67140f`.
+- Passing validation: <https://github.com/CardputerZero/packages/actions/runs/43092322917>
+- Passing staging capture: <https://github.com/CardputerZero/packages/actions/runs/43092318889>
+- Validation report: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805938822>
+- Tracking pull request: <https://github.com/CardputerZero/packages/pull/267>
+- Required real-device demo: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805878225>
+- Demo is a real-device framebuffer recording, not a physical-camera recording.
+- Additional user-provided review material: <https://x.com/mtoolstec/status/2120067252976586806>.
+- Review-reference comment: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805937285>.
+- Validated package metadata commit: `33af2a29f3bf08806686faf09689961e79071e84` in the contributor fork.
+- The first validation was superseded after merging the current store index; it had incorrectly included a concurrently updated, unrelated package in its ownership check.
 - First-release policy: a maintainer reviews a short real-device demo before merging; validation alone does not make a new app live.
