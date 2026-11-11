@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+cd /usr/share/APPLaunch/apps/flipper-one-remote
+exec ./flipper-one-remote ./bridge.py "${FLIPPER_ONE_HOST:-192.168.50.2}"

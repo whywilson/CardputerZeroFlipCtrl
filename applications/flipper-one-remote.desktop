@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=FlipCTL
+Exec=bin/flipper-one-remote
+Terminal=false
+Icon=share/images/flipper-one-remote.png
+Type=Application

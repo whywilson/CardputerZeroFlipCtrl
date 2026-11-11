@@ -1,0 +1,13 @@
+# Build outputs and captures may show device identifiers and network settings.
+dist/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+*.FCStd1
+
+# The parent demo repository ignores directories named tools; keep our sources.
+!tools/
+!tools/*.py
+# Keep raw device captures out of the public source tree.
+design/key-guide/device-help-preview.png
