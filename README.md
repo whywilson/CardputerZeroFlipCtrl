@@ -6,13 +6,13 @@ A FlipCTL client for CardputerZero. Display and control Flipper One over wired E
 
 These 320×170 screenshots were captured on CardputerZero. The connection page uses the documentation address `192.0.2.10`; no real target was contacted, and no device identifiers or actual network settings are shown.
 
-| Auto connection | WiFi connection |
+| Auto connection | Remote system info |
 | --- | --- |
-| ![Auto connection page](docs/screenshots/connection-auto.png) | ![Active remote session](docs/screenshots/connection-active.png) |
+| ![Auto connection page](docs/screenshots/connection-auto.png) | ![Remote system info](docs/screenshots/remote-system-info.png) |
 
-| H key guide | Remote view |
+| H key guide | Active remote view |
 | --- | --- |
-| ![Pixel-art key guide](docs/screenshots/key-guide.png) | ![Active remote session](docs/screenshots/invalid-ip.png) |
+| ![Pixel-art key guide](docs/screenshots/key-guide.png) | ![Active remote session](docs/screenshots/connection-active.png) |
 
 See the [screenshot notes](docs/screenshots/README.md) for the isolated capture procedure. These images show the client interface; real remote screens are not included as promotional assets.
 
