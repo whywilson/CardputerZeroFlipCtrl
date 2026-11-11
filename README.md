@@ -8,11 +8,11 @@ These 320×170 screenshots were captured on CardputerZero. The connection page u
 
 | Auto connection | WiFi connection |
 | --- | --- |
-| ![Auto connection page](docs/screenshots/connection-auto.png) | ![WiFi documentation address](docs/screenshots/connection-wifi.png) |
+| ![Auto connection page](docs/screenshots/connection-auto.png) | ![Active remote session](docs/screenshots/connection-active.png) |
 
-| H key guide | IP validation |
+| H key guide | Remote view |
 | --- | --- |
-| ![Pixel-art key guide](docs/screenshots/key-guide.png) | ![Invalid IP address](docs/screenshots/invalid-ip.png) |
+| ![Pixel-art key guide](docs/screenshots/key-guide.png) | ![Active remote session](docs/screenshots/invalid-ip.png) |
 
 See the [screenshot notes](docs/screenshots/README.md) for the isolated capture procedure. These images show the client interface; real remote screens are not included as promotional assets.
 
