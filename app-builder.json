@@ -10,9 +10,9 @@
     "categories": ["Hardware & IoT", "System Tools"],
     "screenshots": [
       "docs/screenshots/connection-auto.png",
-      "docs/screenshots/connection-wifi.png",
+      "docs/screenshots/connection-active.png",
       "docs/screenshots/key-guide.png",
-      "docs/screenshots/invalid-ip.png"
+      "docs/screenshots/remote-system-info.png"
     ],
     "icon": "share/images/flipper-one-remote.png",
     "license": "GPL-3.0-only",

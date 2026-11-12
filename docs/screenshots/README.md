@@ -1,15 +1,16 @@
 # Public screenshots
 
-These four PNGs were captured from CardputerZero's 320×170 RGB565 framebuffer. They show the current client's Auto connection page, WiFi connection page, H key guide, and invalid-IP message. Interface text was not retouched. The PNGs contain no device, location, or capture-software metadata.
+The current store listing and README use these four 320×170 screenshots captured from CardputerZero's framebuffer:
 
-Capture used a temporary `XDG_CONFIG_HOME` and FIFO keyboard with Ethernet probing disabled. No real target was contacted, and the user's saved WiFi address was neither read nor modified. The WiFi page displays the RFC 5737 documentation address `192.0.2.10`. The validation page displays the intentionally invalid address `999.1.2.3`.
+1. `connection-auto.png`: the local Auto connection page.
+2. `connection-active.png`: a connected remote view.
+3. `key-guide.png`: the H-key pixel-art guide.
+4. `remote-system-info.png`: remote system information, captured while connected.
 
-On the device, stop FlipCTL and APPLaunch before running:
+The connected views were captured at the developer's request without injecting keys or adding a help overlay during capture. Their interface pixels are unretouched. The Auto page and key guide were originally captured with an isolated configuration and FIFO keyboard. The old invalid-IP example is not part of the current screenshot set.
 
-```sh
-python3 tools/capture_public_screenshots.py --output /tmp/flipctl-public-screenshots
-```
+`tools/capture_public_screenshots.py` reproduces the original isolated test screens, rather than the current connected views. It uses a temporary `XDG_CONFIG_HOME`, disables Ethernet probing, and does not modify the user's saved WiFi address. Run that test capture only after stopping other framebuffer apps, then restore APPLaunch afterwards.
 
-The current client must already be installed, and the caller needs framebuffer access. The script does not manage system services. Restore the app afterwards, or run `systemctl --user start APPLaunch.service`. Do not capture while another app owns the display.
+Connected remote screens may display device identifiers or network settings. Review any new capture before publishing it. Historical raw captures and logs under `dist/` are excluded from the source repository.
 
-Historical files in `dist/` may contain real device names or network addresses and are excluded from public source packaging. Public documentation uses only the four reviewed images in this directory. Real remote screens are not included as promotional screenshots.
+The developer-provided real-hardware demonstration for store review is available at https://x.com/mtoolstec/status/2120067252976586806.

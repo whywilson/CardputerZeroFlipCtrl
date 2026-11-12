@@ -38,9 +38,9 @@ Portal: <https://dev.cardputer.cc/#/upload>
 - Source icon: `share/images/flipper-one-remote.png` (256 x 256).
 - Packaged icon: `/usr/share/APPLaunch/share/images/flipper-one-remote.png`.
 - Screenshot 1: `docs/screenshots/connection-auto.png` (320 x 170).
-- Screenshot 2: `docs/screenshots/connection-wifi.png` (320 x 170).
+- Screenshot 2: `docs/screenshots/connection-active.png` (320 x 170).
 - Screenshot 3: `docs/screenshots/key-guide.png` (320 x 170).
-- Screenshot 4: `docs/screenshots/invalid-ip.png` (320 x 170).
+- Screenshot 4: `docs/screenshots/remote-system-info.png` (320 x 170).
 - Optional screenshots 5 and 6: not used.
 
 ## Preflight
@@ -52,26 +52,24 @@ Portal: <https://dev.cardputer.cc/#/upload>
 - [x] Shared installation paths use the package-name prefix.
 - [x] Two independent package builds are byte-for-byte identical.
 - [x] Public registry has no conflicting package name, title or share code at preflight time.
-- [x] Four clean 320 x 170 screenshots and a 256 x 256 icon exist.
-- [x] Public source and selected screenshots have been checked for credentials and private device details.
+- [x] Four reviewed 320 x 170 screenshots and a 256 x 256 icon exist.
+- [x] Public source is checked for credentials; connected screenshots are developer-approved real-device captures.
 - [x] The user explicitly approved source push and external store submission.
 
 ## Submission Result
 
 - Status: `submitted; all automated checks passed; awaiting first-release maintainer review`
-- Submission route: official `czdev` preflight and buffer-release flow; recovered its local Git fetch failure with GitHub's Git Data API.
-- Submitted at: `2026-11-11T19:56:34Z` (`2026-11-12 03:56:34 Asia/Shanghai`).
+- Submission route: a fresh branch based on current store main, submitted through GitHub's Git Data API with the existing validated package and buffer-release manifest.
+- Submitted at: `2026-11-12T00:19:03Z` (`2026-11-12 08:19:03 Asia/Shanghai`).
 - GitHub source release: <https://github.com/whywilson/CardputerZeroFlipCtrl/releases/tag/v0.1.0>
 - Source revision: `92ad31d` (release `v0.1.0`).
 - Complete source archive SHA-256: `8cb9345c3fe09992438ec61ad9d781b81813b991a4c00905fde7d3f07a67140f`.
-- Passing validation: <https://github.com/CardputerZero/packages/actions/runs/43092322917>
-- Passing staging capture: <https://github.com/CardputerZero/packages/actions/runs/43092318889>
-- Validation report: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805938822>
-- Tracking pull request: <https://github.com/CardputerZero/packages/pull/267>
-- Required real-device demo: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805878225>
-- Demo is a real-device framebuffer recording, not a physical-camera recording.
-- Additional user-provided review material: <https://x.com/mtoolstec/status/2120067252976586806>.
-- Review-reference comment: <https://github.com/CardputerZero/packages/pull/267#issuecomment-6805937285>.
-- Validated package metadata commit: `33af2a29f3bf08806686faf09689961e79071e84` in the contributor fork.
-- The first validation was superseded after merging the current store index; it had incorrectly included a concurrently updated, unrelated package in its ownership check.
+- Passing validation: <https://github.com/CardputerZero/packages/actions/runs/43126399438>
+- Passing staging capture: <https://github.com/CardputerZero/packages/actions/runs/43126399164>
+- Validation report: <https://github.com/CardputerZero/packages/pull/269#issuecomment-6810536812>
+- Tracking pull request: <https://github.com/CardputerZero/packages/pull/269>
+- Required real-device demonstration: <https://x.com/mtoolstec/status/2120067252976586806>.
+- Review-reference comment: <https://github.com/CardputerZero/packages/pull/269#issuecomment-6810550330>.
+- Validated package metadata commit: `d9baf22a4605c78af62049c3afa3895a53c4953a` in the contributor fork.
+- Superseded submission: <https://github.com/CardputerZero/packages/pull/267>, closed after the replacement passed both checks. Continue review on #269.
 - First-release policy: a maintainer reviews a short real-device demo before merging; validation alone does not make a new app live.
